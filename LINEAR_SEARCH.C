@@ -19,7 +19,7 @@ void main()
 			printf("\n %d is present at location %d",search,c+1);
 			break;
 		}
-		if(array[c]==n)
+		if(c==n-1)
 		{
 			printf("\n %d is not present in the array.",search);
 		}
